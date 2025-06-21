@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+<head>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176145032-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
     gtag('config', 'UA-176145032-1');
@@ -15,16 +16,16 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel = "icon" type = "image/png" href = "/icon.png">
+  <link rel="icon" type="image/png" href="/icon.png">
   <title>Portfolio</title>
   <meta name="description" content="My portfolio Website">
 
   <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 
-  <body>
-      <div id="particles-js">
-  <div class="header">
+<body>
+  <div id="particles-js">
+    <div class="header">
       <h1>
         <span class="site-title">Bhavya Sharma</span>
         <span class="site-description">Software Developer / Aspiring Entrepreneur</span>
@@ -33,86 +34,97 @@
         <a aria-label="Send email" href="mailto:bhavyas2603@gmail.com"><i class="icon fa fa-envelope"></i></a>
         <!-- <a aria-label="My Github" target="_blank" href="https://github.com/bs2603"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a> -->
 
-<!-- =========================================Phone Icon popup==================================== -->
+        <!-- =========================================Phone Icon popup==================================== -->
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <style>
-        /* Popup container - can be anything you want */
-        .popup {
-          position: relative;
-          display: inline-block;
-          cursor: pointer;
-          -webkit-user-select: none;
-          -moz-user-select: none;
-          -ms-user-select: none;
-          user-select: none;
-        }
+          /* Popup container - can be anything you want */
+          .popup {
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+          }
 
-        /* The actual popup */
-        .popup .popuptext {
-          visibility: hidden;
-          width: 160px;
-          background-color: #555;
-          color: #fff;
-          text-align: center;
-          border-radius: 6px;
-          padding: 8px 0;
-          position: absolute;
-          z-index: 1;
-          bottom: 125%;
-          left: 50%;
-          margin-left: -80px;
-        }
+          /* The actual popup */
+          .popup .popuptext {
+            visibility: hidden;
+            width: 160px;
+            background-color: #555;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 8px 0;
+            position: absolute;
+            z-index: 1;
+            bottom: 125%;
+            left: 50%;
+            margin-left: -80px;
+          }
 
-        /* Popup arrow */
-        .popup .popuptext::after {
-          content: "";
-          position: absolute;
-          top: 100%;
-          left: 50%;
-          margin-left: -5px;
-          border-width: 5px;
-          border-style: solid;
-          border-color: #555 transparent transparent transparent;
-        }
+          /* Popup arrow */
+          .popup .popuptext::after {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            margin-left: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: #555 transparent transparent transparent;
+          }
 
-        /* Toggle this class - hide and show the popup */
-        .popup .show {
-          visibility: visible;
-          -webkit-animation: fadeIn 1s;
-          animation: fadeIn 1s;
-        }
+          /* Toggle this class - hide and show the popup */
+          .popup .show {
+            visibility: visible;
+            -webkit-animation: fadeIn 1s;
+            animation: fadeIn 1s;
+          }
 
-        /* Add animation (fade in the popup) */
-        @-webkit-keyframes fadeIn {
-          from {opacity: 0;}
-          to {opacity: 1;}
-        }
+          /* Add animation (fade in the popup) */
+          @-webkit-keyframes fadeIn {
+            from {
+              opacity: 0;
+            }
 
-        @keyframes fadeIn {
-          from {opacity: 0;}
-          to {opacity:1 ;}
-        }
+            to {
+              opacity: 1;
+            }
+          }
+
+          @keyframes fadeIn {
+            from {
+              opacity: 0;
+            }
+
+            to {
+              opacity: 1;
+            }
+          }
         </style>
         </head>
+
         <body style="text-align:center">
 
 
-        <div class="popup" onclick="myFunction()">
-          <i class="icon fa fa-phone" aria-hidden="true"></i>
-          <span class="popuptext" id="myPopup">+918949485816</span>
-        </div>
+          <div class="popup" onclick="myFunction()">
+            <i class="icon fa fa-phone" aria-hidden="true"></i>
+            <span class="popuptext" id="myPopup">+918949485816</span>
+          </div>
 
-        <script>
-        // When the user clicks on div, open the popup
-        function myFunction() {
-          var popup = document.getElementById("myPopup");
-          popup.classList.toggle("show");
-        }
-        </script>
+          <script>
+            // When the user clicks on div, open the popup
+            function myFunction() {
+              var popup = document.getElementById("myPopup");
+              popup.classList.toggle("show");
+            }
+          </script>
 
       </div>
-<!-- ============================================================================= -->
+      <!-- ============================================================================= -->
 
       <div class="header-links">
         <a class="link" href="#about" data-scroll>About Me</a>
@@ -120,486 +132,508 @@
         <a class="link" href="#contact" data-scroll>Contact Me</a>
         <a class="link" href="/assets/img/Resume.pdf" target="_blank">Resume</a>
       </div>
+    </div>
+    <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
   </div>
-  <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
-</div>
 
-      <section id="about">
-         <div class="user-details">
-  <h1> About Me </h1>
-  <p> Hey, I'm Bhavya!<br>
-I'm a full stack software developer with two years of experience. I work on end to end web development and Azure based network architechture.<br>
-I am also enthusiastic about entrepreneurship and am looking forward to starting my own venture or joining a promising idea.<br><br>
+  <section id="about">
+    <div class="user-details">
+      <h1> About Me </h1>
+      <p align="left"> Hey, I'm Bhavya!<br>
+        I'm a full stack software developer with three years of experience. <br>
+        📬 Reach me at: bhavyas2603@gmail.com<br>
+        🌐 Portfolio: https://bs2603.github.io <br>
+        📱 +91-8949485816 <br>
 
-Other than these,<br>
-I love to hit the gym and am always up for a game of chess!<br><br>
+        Currently I work at JioSaavn, I’ve worked on projects across backend and fullstack:<br>
 
-email:  bhavyas2603@gmail.com<br>
-number: +91-8949485816<br>
-chess.com: @coppenhager<br>
-  You can check my projects and experience below. </p>
-</div>
-<h1>Skills</h1>
-<div class="user">
-  <div class="tech">
-    <h3>Software</h3>
-    <ul style="color:Black;font-size:20px;text-align:left">
-      <li >ROS</li>
-      <li >Gazebo</li>
-      <li >OpenCV</li>
-      <li >MATLAB</li>
-      <li >Simulink</li>
-      <li >Fusion360</li>
-      <li >Solidworks</li>
-    </ul>
+        - Search Entity Re-architecture: Rewrote legacy PHP monolith into performant GoLang microservices — cutting
+        latency,<br>
+        improving fault tolerance, and enabling better logging and analytics.<br>
 
-    <!-- #<p>Mumblecore hexagon kombucha, pitchfork four loko raclette intelligentsia master cleanse.
+        - Websocket GoLang Servers : Development and maintenance of Golang based websocket servers, made by rewriting
+        the<br>
+        legacy PHP Ratchet servers.<br>
+
+        - JioSaavn-for-Brands: End to end Development and maintenance of the JioSaavn-for-Brands website, a key
+        advertising<br>
+        and lead generation platform.<br>
+
+        - Service Ownership: Maintain and enhance internal tools like Cricket API, ADX Service, Proposal Service, and
+        URL<br>
+        Shortener.<br><br>
+
+        Tech Skills<br>
+        Backend: GoLang, Python, PHP, Node.js, C, C++<br>
+        Systems & Infra: Kubernetes, Kafka, Redis, Solr, Trino, Hive, MongoDB, MySQL, Azure CLI, Jenkins<br>
+        Tools: Grafana, Strapi, Postman, Superset, Git, Jupyter Notebook<br>
+        Stacks: MERN, LAMP<br>
+        Frontend: ReactJS, Next.js, HTML, CSS, JavaScript<br>
+
+        Outside of work, I love hitting the gym, and am always up for a game of chess! </p>
+    </div>
+    <h1>Skills</h1>
+    <div class="user">
+      <div class="tech">
+        <h3>Software</h3>
+        <ul style="color:Black;font-size:20px;text-align:left">
+          <li>ROS</li>
+          <li>Gazebo</li>
+          <li>OpenCV</li>
+          <li>MATLAB</li>
+          <li>Simulink</li>
+          <li>Fusion360</li>
+          <li>Solidworks</li>
+        </ul>
+
+        <!-- #<p>Mumblecore hexagon kombucha, pitchfork four loko raclette intelligentsia master cleanse.
       #Vinyl XOXO lumbersexual</p> -->
-  </div>
-  <div class="tech">
-    <h3>Hardware</h3>
-    <ul style="color:Black;font-size:20px;text-align:left">
-      <li >Arduino</li>
-      <li >Raspberry-Pi</li>
-      <li >ESP-32</li>
-      <li >Motors and Encoders</li>
-      <li >Sensors and Camera</li>
-      <!-- <li >Fusion360</li>
+      </div>
+      <div class="tech">
+        <h3>Hardware</h3>
+        <ul style="color:Black;font-size:20px;text-align:left">
+          <li>Arduino</li>
+          <li>Raspberry-Pi</li>
+          <li>ESP-32</li>
+          <li>Motors and Encoders</li>
+          <li>Sensors and Camera</li>
+          <!-- <li >Fusion360</li>
       <li >Solidworks</li> -->
-    </ul>
-    <!-- <h2>Hardware</h2>
+        </ul>
+        <!-- <h2>Hardware</h2>
     <h3>Arduino</h3>
     <h3>Raspberry-Pi</h3>
     <h3>ESP-32</h3>
     <h3>Motors and Encoders</h3>
     <h3>Sensors and Camera</h3> -->
 
-  </div>
-  <div class="tech">
-    <h3>Programming</h3>
-    <ul style="color:Black;font-size:20px;text-align:left">
-      <li >Python</li>
-      <li >C++</li>
-      <li>HTML,CSS,JS</li>
-      <li>MatPlotlib,Bokeh,Altair</li>
-      <li style="color:Black;font-size:23px;text-align:left" >Operating Systems:</li>
-      <li >Windows</li>
-      <li >Linux</li>
-      <!-- <li >Fusion360</li>
+      </div>
+      <div class="tech">
+        <h3>Programming</h3>
+        <ul style="color:Black;font-size:20px;text-align:left">
+          <li>Python</li>
+          <li>C++</li>
+          <li>HTML,CSS,JS</li>
+          <li>MatPlotlib,Bokeh,Altair</li>
+          <li style="color:Black;font-size:23px;text-align:left">Operating Systems:</li>
+          <li>Windows</li>
+          <li>Linux</li>
+          <!-- <li >Fusion360</li>
       <li >Solidworks</li> -->
-    </ul>
-    <!-- <h2>Programming</h2>
+        </ul>
+        <!-- <h2>Programming</h2>
     <h3>Reinforement Learning</h3>
     <h3>Python</h3>
     <h3>C++</h3>
     <h3>Operating Systems</h3>
     <h4>Windows</h4>
     <h4>Linux</h4> -->
-    <!-- #<p>Mumblecore hexagon kombucha, pitchfork four loko raclette intelligentsia master cleanse.
+        <!-- #<p>Mumblecore hexagon kombucha, pitchfork four loko raclette intelligentsia master cleanse.
       #Vinyl XOXO lumbersexual</p> -->
-  </div>
-</div>
+      </div>
+    </div>
 
-      </section>
-      <section id="projects">
-        <div class="user-details">
-  <h1> Featured Projects </h1>
-</div>
+  </section>
+  <section id="projects">
+    <div class="user-details">
+      <h1> Featured Projects </h1>
+    </div>
 
-<!-- =================================SpiderBot======================================= -->
+    <!-- =================================SpiderBot======================================= -->
 
-<div class="user-projects">
-  <div class="images-right">
-    <h2>           </h2>
-    <img alt="Spiderbot" src="/assets/img/Spiderbot.png" />
-  </div>
-  <div class="contents">
-    <h3>Project Spiderbot </h3>
-
-    <p style="font-size:15px;color:black;text-align:left">
-        -ROS    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; -Gazebo<br>
-        -RViz    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  -Fusion360<br>
-        -Hardware build and assembly<br>
-        -Inverse Kinematics   <br>
-
-    </p>
-    <p style="font-size:15px;color:black;text-align:justify;">Spiderbot is a biomimetic quadruped robot, which follows the creep gait to move like a spider.
-      It is used as a testing platform for control algorithms.
-     </p>
-    <a class="project-link" href="/projects/spiderbot.html">Check it out</a>
-  </div>
-</div>
-
-<!-- =================================BIPED======================================= -->
-
-<div class="user-projects">
-    <h4>           </h4>
-  <div class="images-left">
-    <img alt="Biped" class="biped" src="/assets/img/Biped.png" />
-  </div>
-  <div class="contents-right">
-    <h3>Self-excited Biped mechanism analysis</h3>
-
-    <style>
-
-    .biped {
-      border: 1px solid #555;
-      border-radius: 4px;
-      padding: 5px;
-
-    }
-    </style>
-    <p style="font-size:15px;color:black;text-align:left">
-        -Self-Excitation    <br>
-        -Biped Locomotion and Balance  <br>
-        -Fusion360 <br>
-
-
-    </p>
-    <p style="font-size:15px;color:black;text-align:justify;">This project aims to study self-excited
-      walking of four-link biped mechanisms which are actuated at hip joints and passive at knee
-      joints with stoppers.
-    </p>
-    <a class="project-link" href="/projects/Biped.html">Check it out</a>
-  </div>
-</div>
-
-
-<!-- =================================SOP======================================= -->
-
-
-<div class="user-projects">
-
-  <div class="images-right">
-      <h2>           </h2>
-    <img alt="Reinforcement Learning" src="/assets/img/RL.png" />
-  </div>
-  <div class="contents">
-    <h3>Motion Planning of Legged Robots using Deep-RL </h3>
-    <p style="font-size:15px;color:black;text-align:left">
-        -Reinforcement Learning
-    </p>
-    <p style="font-size:15px;color:black;text-align:justify;">Researching on the
-      motion planning of different legged robots on legged terrains, and using RL
-      for the Robot to learn Locomotion on different terrains.
-     </p>
-      <a class="project-link" href="/projects/MotionPlanning-RL.html">Check it out</a>
-  </div>
-</div>
-
-<!-- =================================F1 Racecar motion planning======================================= -->
-
-
-<div class="user-projects">
-
-  <div class="images-left">
-    <h3>           </h3>
-    <img alt="Racecar simulation" src="/assets/img/Unibots.png" />
-  </div>
-  <div class="contents-right">
-    <h3>Motion of a racecar on a complicated Track</h3>
+    <div class="user-projects">
+      <div class="images-right">
+        <h2> </h2>
+        <img alt="Spiderbot" src="/assets/img/Spiderbot.png" />
+      </div>
+      <div class="contents">
+        <h3>Project Spiderbot </h3>
 
         <p style="font-size:15px;color:black;text-align:left">
-            -Python    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; -OpenCV<br>
-            -Robot Path planning    &emsp;&emsp;&emsp;&emsp; <br>
-            -Control &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; -Gazebo<br>
+          -ROS &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; -Gazebo<br>
+          -RViz &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; -Fusion360<br>
+          -Hardware build and assembly<br>
+          -Inverse Kinematics <br>
+
+        </p>
+        <p style="font-size:15px;color:black;text-align:justify;">Spiderbot is a biomimetic quadruped robot, which
+          follows the creep gait to move like a spider.
+          It is used as a testing platform for control algorithms.
+        </p>
+        <a class="project-link" href="/projects/spiderbot.html">Check it out</a>
+      </div>
+    </div>
+
+    <!-- =================================BIPED======================================= -->
+
+    <div class="user-projects">
+      <h4> </h4>
+      <div class="images-left">
+        <img alt="Biped" class="biped" src="/assets/img/Biped.png" />
+      </div>
+      <div class="contents-right">
+        <h3>Self-excited Biped mechanism analysis</h3>
+
+        <style>
+          .biped {
+            border: 1px solid #555;
+            border-radius: 4px;
+            padding: 5px;
+
+          }
+        </style>
+        <p style="font-size:15px;color:black;text-align:left">
+          -Self-Excitation <br>
+          -Biped Locomotion and Balance <br>
+          -Fusion360 <br>
+
+
+        </p>
+        <p style="font-size:15px;color:black;text-align:justify;">This project aims to study self-excited
+          walking of four-link biped mechanisms which are actuated at hip joints and passive at knee
+          joints with stoppers.
+        </p>
+        <a class="project-link" href="/projects/Biped.html">Check it out</a>
+      </div>
+    </div>
+
+
+    <!-- =================================SOP======================================= -->
+
+
+    <div class="user-projects">
+
+      <div class="images-right">
+        <h2> </h2>
+        <img alt="Reinforcement Learning" src="/assets/img/RL.png" />
+      </div>
+      <div class="contents">
+        <h3>Motion Planning of Legged Robots using Deep-RL </h3>
+        <p style="font-size:15px;color:black;text-align:left">
+          -Reinforcement Learning
+        </p>
+        <p style="font-size:15px;color:black;text-align:justify;">Researching on the
+          motion planning of different legged robots on legged terrains, and using RL
+          for the Robot to learn Locomotion on different terrains.
+        </p>
+        <a class="project-link" href="/projects/MotionPlanning-RL.html">Check it out</a>
+      </div>
+    </div>
+
+    <!-- =================================F1 Racecar motion planning======================================= -->
+
+
+    <div class="user-projects">
+
+      <div class="images-left">
+        <h3> </h3>
+        <img alt="Racecar simulation" src="/assets/img/Unibots.png" />
+      </div>
+      <div class="contents-right">
+        <h3>Motion of a racecar on a complicated Track</h3>
+
+        <p style="font-size:15px;color:black;text-align:left">
+          -Python &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; -OpenCV<br>
+          -Robot Path planning &emsp;&emsp;&emsp;&emsp; <br>
+          -Control &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; -Gazebo<br>
 
         </p>
         <p style="font-size:15px;color:black;text-align:justify;">
-           The task was to code an algorithm to simulate the motion
-           of a racecar on an arbitrary Racetrack, making sure the
-           car doesn't deviate from the path.
-         </p>
+          The task was to code an algorithm to simulate the motion
+          of a racecar on an arbitrary Racetrack, making sure the
+          car doesn't deviate from the path.
+        </p>
 
-          <a class="project-link" href="/projects/JDE.html">Check it out</a>
-  </div>
-</div>
+        <a class="project-link" href="/projects/JDE.html">Check it out</a>
+      </div>
+    </div>
 
-<!-- =================================HMT======================================= -->
-<div class="user-projects">
+    <!-- =================================HMT======================================= -->
+    <div class="user-projects">
 
-  <div class="images-right">
-      <h2>           </h2>
-    <img alt="Human Machine Teaming" class = "drone" src="/assets/img/Drone.png" />
-  </div>
-  <div class="contents">
-    <h3>Human-Machine Teaming with quadcopters </h3>
+      <div class="images-right">
+        <h2> </h2>
+        <img alt="Human Machine Teaming" class="drone" src="/assets/img/Drone.png" />
+      </div>
+      <div class="contents">
+        <h3>Human-Machine Teaming with quadcopters </h3>
 
-    <style>
+        <style>
+          .drone {
+            border: 1px solid #555;
+            border-radius: 4px;
+            padding: 5px;
 
-    .drone {
-      border: 1px solid #555;
-      border-radius: 4px;
-      padding: 5px;
-
-    }
-    </style>
-
-    <p style="font-size:15px;color:black;text-align:left">
-        -ROS   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; -Gazebo<br>
-        -Human-Machine Teaming  <br>
-        -Quadcopter motion <br>
-
-    </p>
-    <p style="font-size:15px;color:black;text-align:justify;">
-      The task was to code an algorithm to simulate the motion
-      of a racecar on an arbitrary Racetrack, making sure the
-      car doesn't deviate from the path.
-     </p>
-      <a class="project-link" href="/projects/HMT.html">Check it out</a>
-  </div>
-</div>
-<!-- ===================================Smart Vision Analysis===================================== -->
-
-<div class="user-projects">
-
-  <div class="images-left">
-    <h2>           </h2>
-    <h4>           </h4>
-    <img alt="Smart Vision Analysis" class="SVA"  src="/assets/img/SVA1.png" />
-  </div>
-  <div class="contents-right">
-      <h2>           </h2>
-    <h3>Smart Vision Analysis</h3>
-
-    <style>
-
-    .SVA {
-      border: 1px solid #555;
-      border-radius: 4px;
-      padding: 5px;
-
-    }
-    </style>
-
-    <p style="font-size:15px;color:black;text-align:left">
-        -Machine learnning    <br>
-        -Neuroscience    <br>
-
-    </p>
-    <p style="font-size:15px;color:black;text-align:justify;">This project is related to neuroscience
-       and explores brain computer interfacing. It aims to analyse the reception of images and colors
-        to the brain to Improve computer vision techniques.
-
-     </p>
-    <a class="project-link" href="/projects/SVA.html">Check it out</a>
-  </div>
-</div>
-
-<!-- =================================Holter-monitor======================================= -->
-
-<div class="user-projects">
-
-  <div class="images-right">
-      <h2>           </h2>
-    <img alt="Holter-monitor" src="/assets/img/HM.png" />
-  </div>
-  <div class="contents">
-    <h3>Project Holter Monitor </h3>
-    <p style="font-size:15px;color:black;text-align:left">
-        -Circuit design<br>
-        -Arduino Coding  <br>
-
-    </p>
-    <p style="font-size:15px;color:black;text-align:justify;">Project Holter monitor is to make a
-      cost efficient heart rate monitor which can be simply worn on the body and helps measure heart
-      rate anytime at a regular basis. The key feature of this project is its cost efficiency
-       compared to industrial products.
-     </p>
-      <a class="project-link" href="/projects/Holter-monitor.html">Check it out</a>
-  </div>
-</div>
-
-<!-- =================================Aero======================================= -->
-
-
-<div class="user-projects">
-
-  <div class="images-left">
-    <h3>           </h3>
-    <img alt="Ft.Flyer" src="/assets/img/aero1.jpg" />
-  </div>
-  <div class="contents-right">
-    <h3>My work in Aerodynamics</h3>
+          }
+        </style>
 
         <p style="font-size:15px;color:black;text-align:left">
-            -RC plane build and Fly  <br>
-            -ROS   &emsp;&emsp;&emsp;&emsp; -XFLR5 <br>
-            -GAZEBO &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<br>
-            -Quadcopter Locomotion<br>
+          -ROS &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; -Gazebo<br>
+          -Human-Machine Teaming <br>
+          -Quadcopter motion <br>
 
         </p>
         <p style="font-size:15px;color:black;text-align:justify;">
-           I began my journey into robotics with aerial robotics, exploring different aspects
-           of Aerodynamics and building different RC planes and Quadcopters, I even worked on
-           making an ACV/ hovercraft.
-         </p>
+          The task was to code an algorithm to simulate the motion
+          of a racecar on an arbitrary Racetrack, making sure the
+          car doesn't deviate from the path.
+        </p>
+        <a class="project-link" href="/projects/HMT.html">Check it out</a>
+      </div>
+    </div>
+    <!-- ===================================Smart Vision Analysis===================================== -->
 
-          <a class="project-link" href="/projects/Aero.html">Check it out</a>
-  </div>
-</div>
+    <div class="user-projects">
 
+      <div class="images-left">
+        <h2> </h2>
+        <h4> </h4>
+        <img alt="Smart Vision Analysis" class="SVA" src="/assets/img/SVA1.png" />
+      </div>
+      <div class="contents-right">
+        <h2> </h2>
+        <h3>Smart Vision Analysis</h3>
 
-<!-- =================================PS1======================================= -->
+        <style>
+          .SVA {
+            border: 1px solid #555;
+            border-radius: 4px;
+            padding: 5px;
 
-<div class="user-projects">
+          }
+        </style>
 
-  <div class="images-right">
-      <h3>           </h3>
-    <img alt="PS1" class="ps1" src="/assets/img/grasim1.jpg" />
-  </div>
-  <div class="contents">
-    <h3>Practice School Internship - Grasim Industries,India</h3>
-    <style>
+        <p style="font-size:15px;color:black;text-align:left">
+          -Machine learnning <br>
+          -Neuroscience <br>
 
-    .ps1 {
-      border: 1px solid #555;
-      border-radius: 4px;
-      padding: 5px;
+        </p>
+        <p style="font-size:15px;color:black;text-align:justify;">This project is related to neuroscience
+          and explores brain computer interfacing. It aims to analyse the reception of images and colors
+          to the brain to Improve computer vision techniques.
 
-    }
-    </style>
-    <p style="font-size:15px;color:black;text-align:left">
-        -Industry Solutions<br>
-        -Research<br>
+        </p>
+        <a class="project-link" href="/projects/SVA.html">Check it out</a>
+      </div>
+    </div>
 
-    </p>
-    <p style="font-size:15px;color:black;text-align:justify;">This project was my work at
-       Grasim Industries, Nagda, India. One of the biggest industries in India. Which gave me good
-       industrial worklife and management experience and skills.
-     </p>
-      <a class="project-link" href="/projects/Holter-monitor.html">Check it out</a>
-  </div>
-</div>
+    <!-- =================================Holter-monitor======================================= -->
 
-<!-- =================================Work Experience======================================= -->
+    <div class="user-projects">
 
-<div class="user-details">
-  <h1> Work Experience </h1>
-</div>
+      <div class="images-right">
+        <h2> </h2>
+        <img alt="Holter-monitor" src="/assets/img/HM.png" />
+      </div>
+      <div class="contents">
+        <h3>Project Holter Monitor </h3>
+        <p style="font-size:15px;color:black;text-align:left">
+          -Circuit design<br>
+          -Arduino Coding <br>
 
-<!-- =================================Grasim======================================= -->
+        </p>
+        <p style="font-size:15px;color:black;text-align:justify;">Project Holter monitor is to make a
+          cost efficient heart rate monitor which can be simply worn on the body and helps measure heart
+          rate anytime at a regular basis. The key feature of this project is its cost efficiency
+          compared to industrial products.
+        </p>
+        <a class="project-link" href="/projects/Holter-monitor.html">Check it out</a>
+      </div>
+    </div>
 
-
-<div class="user-projects">
-  <h3>Industrial Work : Grasim Industries</h3>
-  <p style="font-size:20px;color:black;text-align:justify;">Work at
-     Grasim Industries, Nagda, India. One of the biggest industries in India. Which gave me good
-     industrial worklife and management experience and skills.
-   </p><br>
-  <style>
-  img {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 700px;
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  </style>
-
-  <div class="container">
-    <img src="/assets/img/LOR.png" alt="LOR" >
-
-  </div>
+    <!-- =================================Aero======================================= -->
 
 
- <a class="project-link" href="/projects/PS1.html">Check it out</a>
+    <div class="user-projects">
 
-</div>
+      <div class="images-left">
+        <h3> </h3>
+        <img alt="Ft.Flyer" src="/assets/img/aero1.jpg" />
+      </div>
+      <div class="contents-right">
+        <h3>My work in Aerodynamics</h3>
 
-<!-- =================================IIT Delhi======================================= -->
+        <p style="font-size:15px;color:black;text-align:left">
+          -RC plane build and Fly <br>
+          -ROS &emsp;&emsp;&emsp;&emsp; -XFLR5 <br>
+          -GAZEBO &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<br>
+          -Quadcopter Locomotion<br>
 
-<div class="user-projects">
-  <h3>Indian Institute of Technology, Delhi (Intern) <br> (May,2020 - July,2020) </h3>
-  <p style="font-size:20px;color:black;text-align:justify;">I worked as an Intern under professor S.K. Saha
-    at IIT Delhi, during May 25-july25 2020 and December 15, 2018- January 5,2019.
-    I work was on project Spiderbot and is ongoing.
+        </p>
+        <p style="font-size:15px;color:black;text-align:justify;">
+          I began my journey into robotics with aerial robotics, exploring different aspects
+          of Aerodynamics and building different RC planes and Quadcopters, I even worked on
+          making an ACV/ hovercraft.
+        </p>
 
-   </p><br>
-
-
-    <a class="project-link" href="/projects/spiderbot.html">Check it out</a>
-
-
-</div>
-
-
-<!-- =================================Plaksha======================================= -->
-
-<div class="user-projects">
-  <h3>Young Technology Scholars, Plaksha University (Teacher)<br>(13 June,2020- 28 June,2020) </h3>
-  <p style="font-size:20px;color:black;text-align:justify;">
-    I worked as a teacher in a two week workshop called Young technology Scholars for students
-    from grade 8th to 12th. teaching basics of computer science, Electronics . And
-    worked on teaching cryptography as a final project.
-
-   </p><br>
+        <a class="project-link" href="/projects/Aero.html">Check it out</a>
+      </div>
+    </div>
 
 
-    <a class="project-link" href="https://plaksha.org/">Check it out</a>
+    <!-- =================================PS1======================================= -->
+
+    <div class="user-projects">
+
+      <div class="images-right">
+        <h3> </h3>
+        <img alt="PS1" class="ps1" src="/assets/img/grasim1.jpg" />
+      </div>
+      <div class="contents">
+        <h3>Practice School Internship - Grasim Industries,India</h3>
+        <style>
+          .ps1 {
+            border: 1px solid #555;
+            border-radius: 4px;
+            padding: 5px;
+
+          }
+        </style>
+        <p style="font-size:15px;color:black;text-align:left">
+          -Industry Solutions<br>
+          -Research<br>
+
+        </p>
+        <p style="font-size:15px;color:black;text-align:justify;">This project was my work at
+          Grasim Industries, Nagda, India. One of the biggest industries in India. Which gave me good
+          industrial worklife and management experience and skills.
+        </p>
+        <a class="project-link" href="/projects/Holter-monitor.html">Check it out</a>
+      </div>
+    </div>
+
+    <!-- =================================Work Experience======================================= -->
+
+    <div class="user-details">
+      <h1> Work Experience </h1>
+    </div>
+
+    <!-- =================================Grasim======================================= -->
 
 
-</div>
-<!-- =================================Trysessions======================================= -->
+    <div class="user-projects">
+      <h3>Industrial Work : Grasim Industries</h3>
+      <p style="font-size:20px;color:black;text-align:justify;">Work at
+        Grasim Industries, Nagda, India. One of the biggest industries in India. Which gave me good
+        industrial worklife and management experience and skills.
+      </p><br>
+      <style>
+        img {
+          border: 1px solid #ddd;
+          border-radius: 4px;
+          padding: 5px;
+          width: 700px;
+          max-width: 100%;
+          height: auto;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      </style>
 
-<div class="user-projects">
-  <h3>TrySessions (Teacher)<br>(July,2020 - Present) </h3>
-  <p style="font-size:20px;color:black;text-align:justify;">
-    I am currently working as a teacher at an organisation called trysessions, to teach
-    basics of computer science.
+      <div class="container">
+        <img src="/assets/img/LOR.png" alt="LOR">
 
-   </p><br>
+      </div>
 
 
-    <a class="project-link" href="https://beta.trysessions.com/?utm_expid=.FGJvYj-mSSCzlESttVt3Gg.1&utm_referrer=">Check it out</a>
+      <a class="project-link" href="/projects/PS1.html">Check it out</a>
+
+    </div>
+
+    <!-- =================================IIT Delhi======================================= -->
+
+    <div class="user-projects">
+      <h3>Indian Institute of Technology, Delhi (Intern) <br> (May,2020 - July,2020) </h3>
+      <p style="font-size:20px;color:black;text-align:justify;">I worked as an Intern under professor S.K. Saha
+        at IIT Delhi, during May 25-july25 2020 and December 15, 2018- January 5,2019.
+        I work was on project Spiderbot and is ongoing.
+
+      </p><br>
 
 
-</div>
-<!-- =================================Sandbox======================================= -->
-<div class="user-projects">
-  <h3>Sandbox Makerspace BITS Goa (Publicity Coordinator)<br>(August,2019 - May,2020) </h3>
-  <p style="font-size:20px;color:black;text-align:justify;">
-    Overlooked the publicity of the lab among coorporations, other colleges and organizations.
+      <a class="project-link" href="/projects/spiderbot.html">Check it out</a>
 
-   </p><br>
 
-</div>
+    </div>
 
-      </section>
-        <!--  -->
-      <section id="contact">
-        <div class="user-details">
 
-<h2>Contact Me</h2>
-<p style="font-size:20px;">
-Email :<a href="mailto:bhavyas2603@gmail.com">bhavyas2603@gmail.com</a> / <a href="mailto:f20170870@goa.bits-pilani.ac.in">f20170870@goa.bits-pilani.ac.in</a>
+    <!-- =================================Plaksha======================================= -->
 
-<br><br>
-Phone: +91-8949485816
-<br>
+    <div class="user-projects">
+      <h3>Young Technology Scholars, Plaksha University (Teacher)<br>(13 June,2020- 28 June,2020) </h3>
+      <p style="font-size:20px;color:black;text-align:justify;">
+        I worked as a teacher in a two week workshop called Young technology Scholars for students
+        from grade 8th to 12th. teaching basics of computer science, Electronics . And
+        worked on teaching cryptography as a final project.
 
-</p>
-</div>
+      </p><br>
 
-      </section>
-      
-<footer class="footer">
-  <div class="header-icons">
-    <a aria-label="Send email" href="mailto:bhavyas2603@gmail.com"><i class="icon fa fa-envelope"></i></a>
-    <a aria-label="My Phone" target="_blank" href="tel:+918949485816"><i class="icon fa fa-phone" aria-hidden="true"></i></a>
-    <a aria-label="My Github" target="_blank" href="https://github.com/bs2603"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
-  </div>
+
+      <a class="project-link" href="https://plaksha.org/">Check it out</a>
+
+
+    </div>
+    <!-- =================================Trysessions======================================= -->
+
+    <div class="user-projects">
+      <h3>TrySessions (Teacher)<br>(July,2020 - Present) </h3>
+      <p style="font-size:20px;color:black;text-align:justify;">
+        I am currently working as a teacher at an organisation called trysessions, to teach
+        basics of computer science.
+
+      </p><br>
+
+
+      <a class="project-link"
+        href="https://beta.trysessions.com/?utm_expid=.FGJvYj-mSSCzlESttVt3Gg.1&utm_referrer=">Check it out</a>
+
+
+    </div>
+    <!-- =================================Sandbox======================================= -->
+    <div class="user-projects">
+      <h3>Sandbox Makerspace BITS Goa (Publicity Coordinator)<br>(August,2019 - May,2020) </h3>
+      <p style="font-size:20px;color:black;text-align:justify;">
+        Overlooked the publicity of the lab among coorporations, other colleges and organizations.
+
+      </p><br>
+
+    </div>
+
+  </section>
+  <!--  -->
+  <section id="contact">
+    <div class="user-details">
+
+      <h2>Contact Me</h2>
+      <p style="font-size:20px;">
+        Email :<a href="mailto:bhavyas2603@gmail.com">bhavyas2603@gmail.com</a> / <a
+          href="mailto:f20170870@goa.bits-pilani.ac.in">f20170870@goa.bits-pilani.ac.in</a>
+
+        <br><br>
+        Phone: +91-8949485816
+        <br>
+
+      </p>
+    </div>
+
+  </section>
+
+  <footer class="footer">
+    <div class="header-icons">
+      <a aria-label="Send email" href="mailto:bhavyas2603@gmail.com"><i class="icon fa fa-envelope"></i></a>
+      <a aria-label="My Phone" target="_blank" href="tel:+918949485816"><i class="icon fa fa-phone"
+          aria-hidden="true"></i></a>
+      <a aria-label="My Github" target="_blank" href="https://github.com/bs2603"><i class="icon fa fa-github-alt"
+          aria-hidden="true"></i></a>
+    </div>
     <p>Build with Jekyll and <span class="love">❤</span> by <a href="https://github.com/bs2603">Bhavya Sharma</a></p>
-</footer>
-<script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-<script src="/assets/js/sweet-scroll.min.js"></script>
-<script src="/assets/js/main.js"></script>
-<!-- Google Analytics -->
+  </footer>
+  <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="/assets/js/sweet-scroll.min.js"></script>
+  <script src="/assets/js/main.js"></script>
+  <!-- Google Analytics -->
 
 
 
-  </body>
+</body>
